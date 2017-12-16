@@ -1,0 +1,15 @@
+baseURL: "https://edwinyam.github.io/"
+languageCode: "en-us"
+title: "Edwinyam's blog"
+theme: "hyde"
+author: "Edwin Chen"
+contentDir: "content"
+layoutDir: "layouts"
+publishDir: "docs"
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
+permalinks:
+  post: "/:year/:month/:slug/"
