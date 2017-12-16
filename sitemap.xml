@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://edwinyam.github.io/categories/</loc>
+    <loc>https://edwinyam.github.io/morePapers/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://edwinyam.github.io/</loc>
+    <loc>https://edwinyam.github.io/morePapers/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://edwinyam.github.io/tags/</loc>
+    <loc>https://edwinyam.github.io/morePapers/tags/</loc>
     <priority>0</priority>
   </url>
   
