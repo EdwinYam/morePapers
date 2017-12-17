@@ -1,15 +1,118 @@
-baseURL: "https://edwinyam.github.io/"
-languageCode: "en-us"
-title: "Edwinyam's blog"
-theme: "hyde"
+baseurl: "https://edwinyam.github.io/" # Make sure to end baseurl with a '/'
+title: "Edwinyam's Blog"
 author: "Edwin Chen"
-contentDir: "content"
-layoutDir: "layouts"
-publishDir: "docs"
+theme: "blackburn"
+# Shown in the side menu
+copyright: 'Edwin Chen © 2017 | <a href="http://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn theme</a> &<a href="http://gohugo.io" target="_blank">Hugo</a>♥' 
+canonifyurls: true
+paginate: 10
 
-taxonomies:
-  category: "categories"
+# contentDir: "content"
+# layoutDir: "layouts"
+# publishDir: "public"
+
+
+indexes:
   tag: "tags"
+  topic: "topics"
 
-permalinks:
-  post: "/:year/:month/:slug/"
+params:
+  # Shown in the home page
+  subtitle: "A Blog For Machine Learning"
+  brand: "Edwinyam"
+  googleAnalytics: "UA-111360475-1"
+  disqus: "Edwin"
+  # CSS name for highlight.js
+  highlightjs: "androidstudio"
+  highlightjs_extra_languages: ["yaml"]
+  dateFormat: "02 Jan 2006, 15:04"
+  # Include any custom CSS and/or JS files
+  # (relative to /static folder)
+  
+  #custom_css: ["css/my.css"]
+  #custom_js: ["js/my.js"]
+
+  #piwikAnalytics:
+  #  siteid: 2
+  #  piwikroot: "//analytics.example.com/"
+
+menu:
+  # Shown in the side menu.
+  main:
+    - name: "Home"
+      pre: "<i class='fa fa-home fa-fw'></i>"
+      weight: 1
+      identifier: "home"
+      url: "/"
+    - name: "Posts"
+      pre: "<i class='fa fa-list fa-fw'></i>"
+      weight: 2
+      identifier: "post"
+      url: "/post/"
+    - name: "Topics"
+      pre: "<i class='fa fa-folder fa-fw'></i>"
+      weight: 3
+      identifier: "topics"
+      url: "/topics/"
+    - name: "Tags"
+      pre: "<i class='fa fa-tags fa-fw'></i>"
+      weight: 4
+      identifier: "tags"
+      url: "/tags/"
+    - name: "About"
+      pre: "<i class='fa fa-user fa-fw'></i>"
+      weight: 5
+      identifier: "about"
+      url: "/about/"
+    - name: "Contact"
+      pre: "<i class='fa fa-phone fa-fw'></i>"
+      weight: 6
+      url: "/contact/"
+
+social:
+  # Link your social networking accounts to the side menu
+  # by entering your username or ID.
+
+  # SNS microblogging
+  #twitter: "*"
+  #gnusocial: "*" # Specify href (e.g. https://quitter.se/yourusername)
+  facebook: "SupergreatEdwin"
+  googleplus: "ntuedwin"
+  #weibo: "*"
+  #tumblr: "*"
+
+  # SNS photo/video sharing
+  #instagram: "*"
+  #flickr: "*"
+  #photo500px: "*"
+  #pinterest: "*"
+  #youtube: "*"
+  #vimeo: "*"
+  #vine: "*"
+  #slideshare: "*"
+
+  # SNS career oriented
+  linkedin: "柏文-陳-b9394a11b"
+  #xing: "*"
+
+  # SNS news
+  #reddit: "*"
+  #hackernews: "*"
+
+  # Techie
+  github: "EdwinYam"
+  #gitlab: "*"
+  #bitbucket: "*"
+  #stackoverflow: "*"
+  #serverfault: "*"
+
+  # Gaming
+  #steam: "*"
+  #mobygames: "*"
+
+  # Music
+  #lastfm: "*"
+  #discogs: "*"
+
+  # Other
+  #keybase: "*"

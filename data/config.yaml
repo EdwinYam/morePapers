@@ -1,0 +1,19 @@
+baseURL: "https://EdwinYam.github.io/"
+languageCode: "zh-tw"
+title: "EdwinYam"
+theme: "hyde"
+author: "Edwin Chen"
+contentDir: "content"
+layoutDir: "layouts"
+publishDir: "public"
+disqusShortname: "EdwinYam"
+
+taxonomies:
+  category: "categories"
+  tag: "tags"
+
+permalinks:
+  post: "/:year/:month/:slug/"
+
+params:
+  themeColor: "theme-base-09"
