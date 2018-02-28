@@ -52,12 +52,12 @@ menu:
     - name: "Topics"
       pre: "<i class='fa fa-folder fa-fw'></i>"
       weight: 3
-      identifier: "topics"
+      identifier: "topic"
       url: "/topics/"
     - name: "Tags"
       pre: "<i class='fa fa-tags fa-fw'></i>"
       weight: 4
-      identifier: "tags"
+      identifier: "tag"
       url: "/tags/"
     - name: "About"
       pre: "<i class='fa fa-user fa-fw'></i>"
